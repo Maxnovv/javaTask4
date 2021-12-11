@@ -136,9 +136,6 @@ class MyMap {
 public class Main {
 
     public static void main(String[] args) {
-        ArrayList<User> u = User.createUsers();
-        Map<Integer,ArrayList<User>> m = User.processUsers(u);
-        User.printUserMap(m);
 
 
 
